@@ -1,0 +1,1 @@
+celery -A app.cel  worker --loglevel=info --pool=threads --without-gossip --without-mingle --without-heartbeat
